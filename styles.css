@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+@font-face {
+    font-family: "IvaMurkovic";
+    src: url("IvaMurkovic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "CabinSketch";
+    src: url("CabinSketch-Regular.ttf") format("truetype");
+}
+
+
+body {
+    background-color: #E0BCFF; 
+    background-image: url("slike/pozadina1.jpeg");
+    font-family: "Montserrat", sans-serif;
+    color: #51002F; 
+    margin: 0;
+    padding: 0;
+    overflow: auto; 
+}
+
+h1 {
+    text-align: center;
+    color: #32005C; 
+    font-family: "IvaMurkovic", sans-serif; 
+}
+
+h2 {
+    text-align: center;
+    color: #32005C; 
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+    margin: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none; 
+    display: flex; 
+    gap: 10px; 
+} 
+
+li {
+    background-color: #C37DFF; 
+    padding: 20px;
+    border: 2px solid #ABABAB;
+}
